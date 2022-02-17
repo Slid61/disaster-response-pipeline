@@ -51,6 +51,9 @@ def clean_data(df):
     
     # remove duplicates
     clean_df.drop_duplicates(inplace=True)
+
+    # this column has values of 2, replace them with modal values (1)
+    clean_df['related'].replace(2, 1, inplace=True)
     
     return clean_df
 
