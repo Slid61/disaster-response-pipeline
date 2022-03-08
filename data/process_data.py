@@ -68,7 +68,7 @@ def save_data(df, database_filename):
     OUTPUT:
         a sqlite database in the same directory with the specified parameters.
     '''
-    engine = create_engine('sqlite:///{}.db'.format(database_filename))
+    engine = create_engine('sqlite:///{}'.format(database_filename))
 
     df.to_sql(database_filename, engine, index=False)
 
