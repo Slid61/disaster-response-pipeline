@@ -25,20 +25,20 @@ This product was written mostly in python, with html, css, and javascript integr
 
 
 ## File Structure:
-disaster-response-pipeline/
-├── app/
-│   ├── templates/
-│   │   ├── go.html
-│   │   └── master.html
-│   └── run.py
-├── data/
-│   ├── disaster_categories.csv
-│   ├── disaster_messages.csv
-│   ├── DisasterResponse.db
-│   └── process_data.py
-├── models/
-│   └── train_classifier.py
-└── README.md
+disaster-response-pipeline/  
+├── app/  
+│   ├── templates/  
+│   │   ├── go.html  
+│   │   └── master.html  
+│   └── run.py  
+├── data/  
+│   ├── disaster_categories.csv  
+│   ├── disaster_messages.csv  
+│   ├── DisasterResponse.db  
+│   └── process_data.py  
+├── models/  
+│   └── train_classifier.py  
+└── README.md  
 
 ### How to run:
 1. Run the following commands in the project's root directory to set up your database and model.
