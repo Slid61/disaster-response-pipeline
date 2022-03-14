@@ -58,7 +58,7 @@ def clean_data(df):
     return clean_df
 
 
-def save_data(df, database_filename):
+def save_data(df, database_filepath):
     '''
     save_data saves an inputed DataFrame with the specified filename as a sqlite database.
     INPUT:
@@ -68,9 +68,9 @@ def save_data(df, database_filename):
     OUTPUT:
         a sqlite database in the same directory with the specified parameters.
     '''
-    engine = create_engine('sqlite:///{}'.format(database_filename))
+    engine = create_engine('sqlite:///{}'.format(database_filepath))
 
-    df.to_sql(database_filename, engine, index=False)
+    df.to_sql('cleaned_data', engine, index=False)
 
                            
 
