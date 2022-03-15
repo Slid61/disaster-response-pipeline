@@ -33,10 +33,7 @@ def load_data(database_filepath):
     '''
     # read in file
     engine = create_engine('sqlite:///{}'.format(database_filepath))
-    df = pd.read_sql_table(database_filepath, con=engine)
-    
-    # clean data
-    df.drop('child_alone', axis=1, inplace=True)
+    df = pd.read_sql_table('clean_data', con=engine)
 
     # define features and label arrays
     X = df['message']

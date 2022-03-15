@@ -70,7 +70,7 @@ def save_data(df, database_filepath):
     '''
     engine = create_engine('sqlite:///{}'.format(database_filepath))
 
-    df.to_sql('cleaned_data', engine, index=False)
+    df.to_sql('cleaned_data', engine, index=False, if_exists='replace')
 
                            
 
