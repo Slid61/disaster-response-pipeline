@@ -9,19 +9,19 @@ This product was written mostly in python, with html, css, and javascript integr
 ## Libraries and Modules Used:
 
 ### python:
-<ol>
-    [sys](https://docs.python.org/3/library/sys.html)
-    [re](https://docs.python.org/3/library/re.html?highlight=re#module-re)
-    [numpy](https://numpy.org/)
-    [pandas](https://pandas.pydata.org/)
-    [sqlalchemy](https://www.sqlalchemy.org/)
-    [progressbar2](https://pypi.org/project/progressbar2/)
-    [nltk](https://www.nltk.org/)
-    [scikit-learn](https://scikit-learn.org/stable/)
-    [flask](https://flask.palletsprojects.com/en/2.0.x/)
-    [plotly](https://plotly.com/)
-    [joblib](https://pypi.org/project/joblib/)
-</ol>
+
+- [sys](https://docs.python.org/3/library/sys.html)
+- [re](https://docs.python.org/3/library/re.html?highlight=re#module-re)
+- [numpy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [sqlalchemy](https://www.sqlalchemy.org/)
+- [progressbar2](https://pypi.org/project/progressbar2/)
+- [nltk](https://www.nltk.org/)
+- [scikit-learn](https://scikit-learn.org/stable/)
+- [flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [plotly](https://plotly.com/)
+- [joblib](https://pypi.org/project/joblib/)
+
 
 
 ## File Structure:
